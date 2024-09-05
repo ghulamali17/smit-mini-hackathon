@@ -271,6 +271,10 @@ color: black;
   .hero img{
     height: 300px;
   }
+  .rev{
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 @media (max-width: 392px) {
     .card-box{
