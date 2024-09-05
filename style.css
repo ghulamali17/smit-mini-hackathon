@@ -3,22 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-.navbarr,.footer{
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+  }
+.navbarr{
     height: 93px;
     width: 100%;
-    /* background-color: aqua; */
     background-color: white;
     color: black;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-/* .navbarr ul li {
-    display: flex;
-    list-style: none;
-    flex-direction: column;
 
-} */
 ul{
     display: flex;
     list-style: none;
@@ -51,7 +52,7 @@ font-family: Space Grotesk;
 font-size: 60px;
 font-weight: 500;
 line-height: 76.56px;
-/* text-align: left; */
+
 
 }
 .hero p{
@@ -67,33 +68,22 @@ text-align: left;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.services{
+.green-bg-text{
     margin-top: 30px;
 }
-.services h1{
+.green-bg-text h1{
     background: #B9FF66;
     padding: 5px;
 }
-/* .cardss{
-    display: flex;
-    gap: 60px;
-    margin-top: 20px;
-} */
 .card-box{
-    /* width: Fixed (600px)px; */
-    max-width: 600px;
-    width: 600px;
-    /* height: Hug (310px)px; */
+    max-width: 550px;
     height: 310px;
-    padding: 50px 0px 0px 0px;
-    gap: 0px;
+    padding: 50px;
     border-radius: 45px;
-    border: 1px 0px 0px 0px;
-    /* justify: space-between; */
-    opacity: 0px;
+    border: 1px solid black;
     background: #F3F3F3;
     border: 1px solid #191A23;
-    box-shadow: 0px 5px 0px 0px #191A23;
+    border-bottom: 6px #191A23;;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -114,11 +104,22 @@ text-align: left;
     background-color: #B9FF66;
 }
 .card2 h3{
-background-color: #F3F3F3;
+    background-color: #F3F3F3;
+    }
+.card3{
+    background-color: black;
 }
+.card3 h3{
+    background-color: #F3F3F3;
+    }
+    .card3 p{
+      color: white;
+        }
+
+
 
 .lower1{
-    width: Fixed (1,234px)px;
+    /* width: Fixed (1,234px)px; */
 height: Hug (279px)px;
 padding: 41px 60px 41px 60px;
 gap: 30px;
@@ -151,13 +152,10 @@ box-shadow: 0px 5px 0px 0px #191A23;
     border-bottom: 1px solid black;
   }
 .lower2{
-    width: Fixed (1,234px)px;
-    height: Hug (159px)px;
+    /* width: Fixed (1,234px)px;
+    height: Hug (159px)px; */
     padding: 41px 60px 41px 60px;
-    gap: 10px;
     border-radius: 45px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
     background: #F3F3F3;
     border: 1px solid #191A23;
     box-shadow: 0px 5px 0px 0px #191A23;
@@ -165,9 +163,7 @@ box-shadow: 0px 5px 0px 0px #191A23;
 
 }
 .form{
-    width: Fixed (1,240px)px;
-height: Hug (773px)px;
-padding: 60px 100px 80px 100px;
+padding: 60px;
 gap: 10px;
 border-radius: 45px;
 opacity: 0px;
@@ -186,6 +182,21 @@ background: #F3F3F3;
     opacity: 0px;
     
 }
+
+   
+.message{
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 14px;
+}
+.message:hover{
+    background-color: white;
+    color: black;
+}
 textarea{
     /* width: Fixed (1,240px)px; */
     width: 100%;
@@ -198,17 +209,44 @@ opacity: 0px;
 
 }
 .footer{
-    width: Hug (1,241px)px;
-height: Hug (514px)px;
-padding: 55px 60px 50px 60px;
-gap: 50px;
-border-radius: 45px 45px 0px 0px;
+    /* width: Hug (1,241px)px; */
+/* height: Hug (514px)px; */
+padding: 55px;
+/* gap: 50px; */
+border-radius: 45px;
 opacity: 0px;
 background: #191A23;
 margin-top: 30px;
+color: black;
+
 }
+.footer_first_items{
+    display: flex ;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* flex-direction: ; */
+    
+}
+
 .footer a{
     color: white;
+}
+.contact_form{
+    height: 150px;
+    /* width: 440px; */
+    background-color: #292A32;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.contact_form input{
+    padding: 15px;
+}
+.Subscribe{
+   background-color: #B9FF66;
+}
+.linee{
+    border-bottom: 1px solid white;
 }
 @media (max-width: 768px) {
   .menuu{
@@ -223,4 +261,23 @@ margin-top: 30px;
   .btnn{
     display: none;
   }
+  .footer ul{
+    flex-direction: column;
+  }
+  .card-box {
+    width: 370px;
+    height: 310px;
+  }
+  .hero img{
+    height: 300px;
+  }
+}
+@media (max-width: 392px) {
+    .card-box{
+       /* width:: 550px; */
+       width: 305px;
+    }
+    .card-img{
+        height: 100px;
+    }
 }
