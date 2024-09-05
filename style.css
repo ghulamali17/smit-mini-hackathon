@@ -123,8 +123,8 @@ text-align: left;
     background-color: #F3F3F3;
     padding: 20px;
 }
-.emoji{
-    height: 205px;
+.emoji img{
+    height: 240px;
 }
 .lower1{
 height: Hug (279px)px;
@@ -239,6 +239,13 @@ color: black;
 }
 .linee{
     border-bottom: 1px solid white;
+}
+.socail i{
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    padding: 5px;
+
 }
 @media (max-width: 768px) {
   .menuu{
