@@ -115,16 +115,21 @@ text-align: left;
     .card3 p{
       color: white;
         }
-
-
-
+.emoji_div{
+    height: 260px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #F3F3F3;
+    padding: 20px;
+}
+.emoji{
+    height: 205px;
+}
 .lower1{
-    /* width: Fixed (1,234px)px; */
 height: Hug (279px)px;
-padding: 41px 60px 41px 60px;
-gap: 30px;
+padding: 41px;
 border-radius: 45px;
-border: 1px 0px 0px 0px;
 opacity: 0px;
 background: #B9FF66;
 border: 1px solid #191A23;
@@ -152,8 +157,6 @@ box-shadow: 0px 5px 0px 0px #191A23;
     border-bottom: 1px solid black;
   }
 .lower2{
-    /* width: Fixed (1,234px)px;
-    height: Hug (159px)px; */
     padding: 41px 60px 41px 60px;
     border-radius: 45px;
     background: #F3F3F3;
@@ -172,9 +175,6 @@ background: #F3F3F3;
 }
 .input{
     width: 100%;
-    /* width: Fixed (556px)px; */
-    /* height: Hug (59px)px; */
-    /* padding: 18px 30px 18px 30px; */
     padding: 10px;
     gap: 10px;
     border-radius: 14px;
@@ -198,9 +198,7 @@ background: #F3F3F3;
     color: black;
 }
 textarea{
-    /* width: Fixed (1,240px)px; */
-    width: 100%;
-/* height: Hug (773px)px; */
+width: 100%;
 height: 150px;
 padding: 20px;
 gap: 10px;
@@ -209,10 +207,8 @@ opacity: 0px;
 
 }
 .footer{
-    /* width: Hug (1,241px)px; */
-/* height: Hug (514px)px; */
+
 padding: 55px;
-/* gap: 50px; */
 border-radius: 45px;
 opacity: 0px;
 background: #191A23;
@@ -223,9 +219,6 @@ color: black;
 .footer_first_items{
     display: flex ;
     align-items: center;
-    /* justify-content: space-around; */
-    /* flex-direction: ; */
-    
 }
 
 .footer a{
@@ -233,7 +226,6 @@ color: black;
 }
 .contact_form{
     height: 150px;
-    /* width: 440px; */
     background-color: #292A32;
       display: flex;
       justify-content: center;
@@ -272,17 +264,17 @@ color: black;
   .hero img{
     height: 300px;
   }
-  .rev{
-    display: flex;
-    flex-direction: column-reverse;
-  }
+  .emoji img{
+    display: none;
+}
 }
 @media (max-width: 392px) {
     .card-box{
-       /* width:: 550px; */
+
        width: 305px;
     }
     .card-img{
         height: 100px;
     }
+   
 }
