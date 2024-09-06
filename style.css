@@ -19,7 +19,6 @@ html, body {
     align-items: center;
     justify-content: space-around;
 }
-
 ul{
     display: flex;
     list-style: none;
@@ -52,8 +51,6 @@ font-family: Space Grotesk;
 font-size: 60px;
 font-weight: 500;
 line-height: 76.56px;
-
-
 }
 .hero p{
  font-family: Space Grotesk;
@@ -61,7 +58,6 @@ font-size: 20px;
 font-weight: 400;
 line-height: 28px;
 text-align: left;
-
 }
 .iconss{
     display: flex;
@@ -112,7 +108,7 @@ text-align: left;
 .card3 h3{
     background-color: #F3F3F3;
     }
-    .card3 p{
+.card3 p{
       color: white;
         }
 .emoji_div{
@@ -162,8 +158,6 @@ box-shadow: 0px 5px 0px 0px #191A23;
     background: #F3F3F3;
     border: 1px solid #191A23;
     box-shadow: 0px 5px 0px 0px #191A23;
-
-
 }
 .form{
 padding: 60px;
@@ -182,8 +176,6 @@ background: #F3F3F3;
     opacity: 0px;
     
 }
-
-   
 .message{
     width: 100%;
     border: 1px solid black;
@@ -204,10 +196,8 @@ padding: 20px;
 gap: 10px;
 border-radius: 20px;
 opacity: 0px;
-
 }
 .footer{
-
 padding: 55px;
 border-radius: 45px;
 opacity: 0px;
@@ -267,7 +257,6 @@ color: black;
     width: 340px;
     height: 310px;
   }
-
   .hero img{
     height: 300px;
   }
@@ -283,5 +272,4 @@ color: black;
     .card-img{
         height: 100px;
     }
-   
 }
