@@ -178,7 +178,7 @@ text-align: left;
     gap: 10px;
 }
 .team_card{
-    max-width: 340px;
+    width: 340px;
     height: 310px;
     border: 1px solid #191A23;
     box-shadow: 0px 5px 0px 0px #191A23;
@@ -339,6 +339,6 @@ color: black;
 }
 @media (max-width: 445px) {
    .team_card{
-    width: 385px;
+    width: 400px;
    }
 }
