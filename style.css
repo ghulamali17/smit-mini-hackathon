@@ -331,7 +331,7 @@ color: black;
 }
 @media (max-width: 392px) {
     .card-box{
-       width: 305px;
+        width: 350px;
     }
     .card-img{
         height: 100px;
